@@ -1,6 +1,7 @@
 body {
-  width: 100vw;
+
   min-width: 960px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -53,5 +54,51 @@ header nav {
   border-radius: 5px;
   padding: 15px;
   margin-right: 35px;
+  cursor: pointer;
+}
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas:
+
+}
+
+.teaser {
+  position: absolute;
+  left: calc(50% - 165.2165px);
+  width: 332px;
+  height: 140px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  line-height: 1.5em;
+  text-align: center;
+  white-space: pre-line;
+  background-color: white;
+
+}
+
+.main-articles-left {
+  background-color: #bc3428;
+  padding-top: 300px;
+  display: grid;
+  float: left;
+}
+
+.main-articles {
+  background-color: #d33a2c;
+  display: grid;
+  padding-top: 300px;
+}
+
+.main-articles-title {
+  cursor: pointer;
+}
+
+.writer-articles a{
+  text-decoration: none;
+  color: white;
   cursor: pointer;
 }
