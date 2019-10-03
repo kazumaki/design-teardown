@@ -59,10 +59,20 @@ header nav {
 
 .latest-articles {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  grid-template-areas:
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 500px 500px;
+  background: #d33a2c;
+}
 
+.lastest-title {
+  margin-top: 20px;
+  grid-column: 1 / span 2;
+  text-align: center;
+  background: #d33a2c;
+}
+
+.lastest-title-text {
+  background: white;
 }
 
 .teaser {
@@ -84,7 +94,6 @@ header nav {
   background-color: #bc3428;
   padding-top: 300px;
   display: grid;
-  float: left;
 }
 
 .main-articles {
