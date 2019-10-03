@@ -1,5 +1,4 @@
 body {
-
   min-width: 960px;
   margin: 0 auto;
 }
@@ -38,10 +37,12 @@ header nav {
 
 .nav-item .fa {
   transform: rotate(-15deg);
+  transition-duration: 0.2s;
 }
 
 .nav-item .fa:hover {
   transform: rotate(0);
+  transition-duration: 0.2s;
 }
 
 .topics {
@@ -60,19 +61,22 @@ header nav {
 .latest-articles {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 500px 500px;
+  grid-template-rows: 150px 500px 500px;
   background: #d33a2c;
 }
 
 .lastest-title {
-  margin-top: 20px;
   grid-column: 1 / span 2;
   text-align: center;
-  background: #d33a2c;
+  background: linear-gradient(to right, #bc3428, #bc3428 50%, #d33a2c 50%, #d33a2c) ;
+  padding: 50px;
 }
 
 .lastest-title-text {
   background: white;
+  display: table;
+  margin: auto;
+  padding: 10px;
 }
 
 .teaser {
@@ -91,23 +95,90 @@ header nav {
 }
 
 .main-articles-left {
+  padding: 80px;
   background-color: #bc3428;
-  padding-top: 300px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .main-articles {
+  padding: 80px;
   background-color: #d33a2c;
-  display: grid;
-  padding-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.writer-articles {
+  display: flex;
+  height: 80px;
+}
+
+.author-avatar {
+  background: transparent;
+  border: solid 5px white;
+  border-radius: 5px;
+  width: 10%;
+  transform: rotate(-15deg);
+  transition-duration: 0.2s;
+}
+
+.author-avatar:hover {
+  transform: rotate(0);
+  transition-duration: 0.2s;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
 }
 
 .main-articles-title {
   cursor: pointer;
 }
 
-.writer-articles a{
+.writer-articles a {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  align-self: center;
+  margin-left: 10px;
+  flex-shrink: 1;
+}
+
+.main-articles-title {
+  text-decoration: none;
+  color: white;
+}
+
+.main-articles-title a {
+  text-decoration: none;
+  color: white;
+}
+
+.article-comment {
+  display: inline-block;
+}
+
+.article-tags a {
+  text-decoration: none;
+  color: white;
+}
+
+.article-tags span {
+  color: #61140f;
+}
+
+.tags-list {
+  padding: 0;
+  list-style: none;
+}
+
+.tags-list li {
+  display: inline-block;
+}
+
+.fa-long-arrow-right {
+  color: white;
 }
