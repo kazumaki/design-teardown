@@ -155,7 +155,7 @@ header nav {
   height: 80%;
   width: 80%;
   align-self: center;
-  justify-self: center; 
+  justify-self: center;
 }
 
 .red-box1 {
@@ -196,4 +196,71 @@ header nav {
   flex-basis: 60px;
   width: 20%;
   min-width: 120px;
+}
+
+.coming-up-next {
+  display: flex;
+  background: #B8B8B8;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.coming-up-next button {
+  border: none;
+  border-radius: 50px;
+  flex-basis: 60px;
+  width: 20%;
+  min-width: 120px;
+  align-self: center;
+}
+
+.marcos {
+  display: block;
+  height: 350px;
+}
+
+.marcos p {
+  margin-left: 55px;
+}
+
+.person-img {
+  background-color: #e5e5e5;
+  float: left;
+  border-radius: 15px;
+  height: 40%;
+  width: 10%;
+  padding: 10px;
+  transform: rotate(-10deg);
+  margin-left: 20px;
+}
+
+.community-links h4 {
+  margin-left: 20px;
+}
+
+.community2 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+}
+
+.highlights1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.highlights2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.highlights3 {
+
+}
+
+.highlights4 {
+
 }
