@@ -1,5 +1,5 @@
 body {
-
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   min-width: 960px;
   margin: 0 auto;
 }
@@ -10,7 +10,7 @@ body {
 }
 
 header nav {
-  background: #d33a2c;
+  background: #757575;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -81,14 +81,14 @@ header nav {
 }
 
 .main-articles-left {
-  background-color: #bc3428;
+  background-color: #979797;
   padding-top: 300px;
   display: grid;
   float: left;
 }
 
 .main-articles {
-  background-color: #d33a2c;
+  background-color: #e5e5e5;
   display: grid;
   padding-top: 300px;
 }
@@ -101,4 +101,17 @@ header nav {
   text-decoration: none;
   color: white;
   cursor: pointer;
+}
+
+.lastest-posts {
+  display: inline-block;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  float: left;
+  grid-template-columns: 1fr 1fr;
+}
+
+.post {
+  
 }
