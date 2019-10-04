@@ -88,7 +88,7 @@ header nav {
 }
 
 .main-articles {
-  background-color: #e5e5e5;
+  background-color: #a0a0a0;
   display: grid;
   padding-top: 300px;
 }
@@ -108,10 +108,92 @@ header nav {
   background-color: #e5e5e5;
   margin: 0;
   padding: 0;
-  float: left;
   grid-template-columns: 1fr 1fr;
 }
 
+.membership {
+  display: flex;
+  background: #B8B8B8;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px;
+}
+
+.membership * {
+  margin-left: 50px;
+  width: 60%;
+}
+
+.membership button {
+  border: none;
+  border-radius: 50px;
+  flex-basis: 60px;
+  width: 20%;
+  min-width: 120px;
+}
+
+.membership ul {
+  padding: 0;
+}
+
+.membership li {
+  margin-left: 0;
+}
+
+.lastest-posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .post {
-  
+  padding: 50px;
+}
+
+.flat-file {
+  background: #A8A8A8;
+  border-radius: 50px;
+  height: 80%;
+  width: 80%;
+  align-self: center;
+  justify-self: center; 
+}
+
+.red-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  grid-column: 1 / span 2;
+  background: #A8A8A8;
+  border-radius: 50px;
+  margin: 50px;
+}
+
+.red-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  grid-column: 3 / span 2;
+  background: #A8A8A8;
+  border-radius: 50px;
+  margin: 50px;
+}
+
+.red-box1 button {
+  border: none;
+  border-radius: 50px;
+  flex-basis: 60px;
+  width: 20%;
+  min-width: 120px;
+}
+
+.red-box2 button {
+  border: none;
+  border-radius: 50px;
+  flex-basis: 60px;
+  width: 20%;
+  min-width: 120px;
 }
