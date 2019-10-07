@@ -471,46 +471,39 @@ p.nav-item-header {
   padding: 50px;
 }
 
-<<<<<<< head .footer-topics a:hover {
-  ======= .footer-topics a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .footer-topics a:hover {
-    >>>>>>> 688d2a4fc92790e8263d259e7debc5be7936bfad
-  text-decoration: underline;688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration688d2a4fc92790e8263d259e7debc5be7936bfadtext-decoration
-  }
-
-  .main-footer p {
-    margin: 0;
-  }
-
-  .topics-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 80%;
-  }
-
-  .topics-list li {
-    margin-right: 25px;
-  }
-
-  .footer-link-list {
-    list-style: none;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .footer-link-list li {
-    padding: 5px;
-    margin-right: 25px;
-  }
-
-  .footer-link a:hover {
-    text-decoration: underline;
-  }
+.footer-topics a:hover {
+  text-decoration: underline;
 }
+
+.main-footer p {
+  margin: 0;
+}
+
+.topics-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.topics-list li {
+  margin-right: 25px;
+}
+
+.footer-link-list {
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-link-list li {
+  padding: 5px;
+  margin-right: 25px;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
