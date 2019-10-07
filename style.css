@@ -251,11 +251,16 @@ header nav {
   margin: auto;
 }
 
-
 .highlights {
   padding: 15px;
   display: grid;
   grid-template-columns: 20% 1fr;
+
+}
+
+.highlights a {
+  text-decoration: none;
+  color: black;
 }
 
 .community2 footer {
@@ -304,3 +309,23 @@ header nav {
   transform: rotate(-15deg);
 }
 
+.curated-posts {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 5%; 
+}
+
+.curated-posts a {
+  width: 100%;
+  
+}
+
+.guides {
+  display: block;
+  margin: 0;
+  padding: 4%;
+  border: 0;
+  padding-top: 30px;
+  width: 25%;
+}
