@@ -2,5 +2,5 @@ linters:
   stylelint:
     config: 'stylelint.config.js'
     fixer: true
-  fixers:
-    enable: true
+fixers:
+  enable: true
