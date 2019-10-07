@@ -219,6 +219,8 @@ header nav {
 .marcos {
   display: block;
   height: 350px;
+  padding: 35px;
+  padding-bottom: 0;
 }
 
 .marcos p {
@@ -242,25 +244,63 @@ header nav {
 
 .community2 {
   display: grid;
-  grid-template-columns: (1, 2fr);
-  grid-template-rows: (3, 1fr);
+  padding: 35px;
+  padding-top: 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   margin: auto;
 }
 
-.highlights1 {
-  grid-column: 1/2;
-  grid-row: 1/2;
+
+.highlights {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 20% 1fr;
 }
 
-.highlights2 {
-  grid-column: 2/3;
-  grid-row: 1/2;
+.community2 footer {
+  grid-column: 1 / span 2;
+  justify-self: center;
 }
 
-.highlights3 {
-
+.highlights .photo-box {
+  background: #eee;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  justify-self: center;
+  transform: rotate(-10deg);
 }
 
-.highlights4 {
-
+.smashing-book {
+  display: flex;
+  height: 350px;
+  background: #B8B8B8;
 }
+
+.book-article {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-article button {
+  width: 30%;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  background: #CFCFCF;
+}
+
+.book-box {
+  background: #757575;
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px;
+  margin-right: 60px;
+  height: 250px;
+  position: relative;
+  top: -50px;
+  transform: rotate(-15deg);
+}
+
