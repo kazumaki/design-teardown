@@ -94,6 +94,11 @@ p.nav-item-header {
 
 }
 
+.footer-link a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-articles-left {
   background-color: #979797;
   padding: 50px;
@@ -101,6 +106,17 @@ p.nav-item-header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.footer-topics a {
+  text-decoration: none;
+  color: black;
+}
+
+.load-more a {
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 5px #979797;
 }
 
 .main-articles-left footer a {
@@ -141,6 +157,11 @@ p.nav-item-header {
   width: 45%;
   justify-content: space-between;
   color: white;
+}
+
+.main-footer p a {
+  text-decoration: none;
+  color: black;
 }
 
 .main-articles-left a:hover {
@@ -442,12 +463,6 @@ p.nav-item-header {
   padding: 150px;
 }
 
-.load-more a {
-  text-decoration: none;
-  color: black;
-  border-bottom: solid 5px #979797;
-}
-
 .main-footer {
   display: flex;
   flex-direction: column;
@@ -456,22 +471,12 @@ p.nav-item-header {
   padding: 50px;
 }
 
-.footer-topics a {
-  text-decoration: none;
-  color: black;
-}
-
 .footer-topics a:hover{
   text-decoration: underline;
 }
 
 .main-footer p {
   margin: 0;
-}
-
-.main-footer p a {
-  text-decoration: none;
-  color: black;
 }
 
 .topics-list {
@@ -496,11 +501,6 @@ p.nav-item-header {
 .footer-link-list li {
   padding: 5px;
   margin-right: 25px;
-}
-
-.footer-link a {
-  text-decoration: none;
-  color: black;
 }
 
 .footer-link a:hover {
