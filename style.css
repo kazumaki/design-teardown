@@ -137,16 +137,6 @@ p.nav-item-header {
   color: black;
 }
 
-.marcos p a {
-  text-decoration: none;
-  color: black;
-}
-
-.community2 footer a {
-  text-decoration: none;
-  color: black;
-}
-
 .smashing-book a {
   text-decoration: none;
   color: black;
@@ -157,6 +147,21 @@ p.nav-item-header {
 }
 
 .guides a {
+  text-decoration: none;
+  color: black;
+}
+
+.highlights a {
+  text-decoration: none;
+  color: black;
+}
+
+.marcos p a {
+  text-decoration: none;
+  color: black;
+}
+
+.community2 footer a {
   text-decoration: none;
   color: black;
 }
@@ -366,11 +371,6 @@ p.nav-item-header {
   padding: 15px;
   display: grid;
   grid-template-columns: 20% 1fr;
-}
-
-.highlights a {
-  text-decoration: none;
-  color: black;
 }
 
 .community2 footer {
