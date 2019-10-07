@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: "Signika", Arial, Helvetica, sans-serif;
   min-width: 960px;
   margin: 0 auto;
 }
@@ -37,6 +37,15 @@ header nav {
   color: white;
 }
 
+.nav-item p {
+  font-weight: 300;
+}
+
+p.nav-item-header {
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
 .nav-item a {
   color: white;
   text-decoration: none;
@@ -65,8 +74,9 @@ header nav {
 
 .latest-articles {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
+  height: 1200px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .teaser {
@@ -86,25 +96,53 @@ header nav {
 
 .main-articles-left {
   background-color: #979797;
-  padding-top: 300px;
-  display: grid;
-  float: left;
+  padding: 50px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.photo-box {
+  background: #eee;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  justify-self: center;
+  transform: rotate(-10deg);
 }
 
 .main-articles {
   background-color: #a0a0a0;
-  display: grid;
-  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px;
+  padding-top: 200px;
 }
 
 .main-articles-title {
   cursor: pointer;
+  color: white;
 }
 
-.writer-articles a{
+.writer-articles {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  color: white;
+}
+
+.teaser-author {
+  align-self: center;
+  cursor: pointer;
+}
+
+.teaser-author a {
   text-decoration: none;
   color: white;
-  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 .lastest-posts {
