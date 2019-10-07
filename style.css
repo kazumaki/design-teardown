@@ -310,22 +310,46 @@ header nav {
 }
 
 .curated-posts {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10% 1fr;
   width: 80%;
   margin: auto;
   padding: 5%; 
 }
 
 .curated-posts a {
-  width: 100%;
-  
+  grid-column: 1 / span 4;
 }
 
 .guides {
-  display: block;
   margin: 0;
   padding: 4%;
   border: 0;
   padding-top: 30px;
-  width: 25%;
+}
+
+.guides a {
+  text-decoration: none;
+  color: black;
+}
+
+.big-red-box {
+  display: flex;
+  padding: 45px;
+  width: auto;
+  flex-direction: column;
+  background-color: #979797;
+  text-align: center;
+}
+
+
+
+.big-red-box button {
+  width: 30%;
+  height: 60px;
+  border: none;
+  border-radius: 15px;
+  background: #CFCFCF;
+  align-self: center;
 }
