@@ -88,7 +88,7 @@ p.nav-item-header {
   height: 140px;
   margin-top: 50px;
   margin-bottom: 0;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
   line-height: 1.5em;
   text-align: center;
   white-space: pre-line;
@@ -118,6 +118,47 @@ p.nav-item-header {
   text-decoration: none;
   color: black;
   border-bottom: solid 5px #979797;
+}
+
+.teaser-author a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.author a {
+  text-decoration: none;
+  color: black;
+}
+
+.coming-up-next a {
+  text-decoration: none;
+  color: black;
+}
+
+.marcos p a {
+  text-decoration: none;
+  color: black;
+}
+
+.community2 footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.smashing-book a {
+  text-decoration: none;
+  color: black;
+}
+
+.curated-posts a {
+  grid-column: 1 / span 4;
+}
+
+.guides a {
+  text-decoration: none;
+  color: black;
 }
 
 .main-articles-left footer a {
@@ -178,24 +219,12 @@ p.nav-item-header {
   cursor: pointer;
 }
 
-.teaser-author a {
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-
-.author a {
-  text-decoration: none;
-  color: black;
-}
-
 .lastest-posts {
-  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #e5e5e5;
   margin: 0;
   padding: 0;
-  grid-template-columns: 1fr 1fr;
 }
 
 .membership {
@@ -225,11 +254,6 @@ p.nav-item-header {
 
 .membership li {
   margin-left: 0;
-}
-
-.lastest-posts {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .post {
@@ -303,11 +327,6 @@ p.nav-item-header {
   align-self: center;
 }
 
-.coming-up-next a {
-  text-decoration: none;
-  color: black;
-}
-
 .marcos {
   display: block;
   height: 350px;
@@ -317,11 +336,6 @@ p.nav-item-header {
 
 .marcos p {
   margin-left: 55px;
-}
-
-.marcos p a {
-  text-decoration: none;
-  color: black;
 }
 
 .person-img {
@@ -364,11 +378,6 @@ p.nav-item-header {
   justify-self: center;
 }
 
-.community2 footer a {
-  text-decoration: none;
-  color: black;
-}
-
 .highlights .photo-box {
   background: #eee;
   width: 80px;
@@ -382,11 +391,6 @@ p.nav-item-header {
   display: flex;
   height: 350px;
   background: #b8b8b8;
-}
-
-.smashing-book a {
-  text-decoration: none;
-  color: black;
 }
 
 .book-article {
@@ -424,20 +428,11 @@ p.nav-item-header {
   padding: 5%;
 }
 
-.curated-posts a {
-  grid-column: 1 / span 4;
-}
-
 .guides {
   margin: 0;
   padding: 4%;
   border: 0;
   padding-top: 30px;
-}
-
-.guides a {
-  text-decoration: none;
-  color: black;
 }
 
 .big-red-box {
