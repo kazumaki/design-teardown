@@ -1,7 +1,9 @@
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -91,7 +93,6 @@ p.nav-item-header {
   text-align: center;
   white-space: pre-line;
   background-color: white;
-
 }
 
 .footer-link a {
@@ -199,7 +200,7 @@ p.nav-item-header {
 
 .membership {
   display: flex;
-  background: #B8B8B8;
+  background: #b8b8b8;
   flex-direction: column;
   width: 100%;
   padding: 50px;
@@ -236,7 +237,7 @@ p.nav-item-header {
 }
 
 .flat-file {
-  background: #A8A8A8;
+  background: #a8a8a8;
   border-radius: 50px;
   height: 80%;
   width: 80%;
@@ -251,7 +252,7 @@ p.nav-item-header {
   align-items: center;
   height: 500px;
   grid-column: 1 / span 2;
-  background: #A8A8A8;
+  background: #a8a8a8;
   border-radius: 50px;
   margin: 50px;
 }
@@ -263,7 +264,7 @@ p.nav-item-header {
   align-items: center;
   height: 500px;
   grid-column: 3 / span 2;
-  background: #A8A8A8;
+  background: #a8a8a8;
   border-radius: 50px;
   margin: 50px;
 }
@@ -286,7 +287,7 @@ p.nav-item-header {
 
 .coming-up-next {
   display: flex;
-  background: #B8B8B8;
+  background: #b8b8b8;
   flex-direction: column;
   width: 100%;
   padding: 50px;
@@ -351,7 +352,6 @@ p.nav-item-header {
   padding: 15px;
   display: grid;
   grid-template-columns: 20% 1fr;
-
 }
 
 .highlights a {
@@ -381,10 +381,10 @@ p.nav-item-header {
 .smashing-book {
   display: flex;
   height: 350px;
-  background: #B8B8B8;
+  background: #b8b8b8;
 }
 
-.smashing-book a{
+.smashing-book a {
   text-decoration: none;
   color: black;
 }
@@ -400,7 +400,7 @@ p.nav-item-header {
   height: 60px;
   border: none;
   border-radius: 15px;
-  background: #CFCFCF;
+  background: #cfcfcf;
 }
 
 .book-box {
@@ -454,7 +454,7 @@ p.nav-item-header {
   height: 60px;
   border: none;
   border-radius: 15px;
-  background: #CFCFCF;
+  background: #cfcfcf;
   align-self: center;
 }
 
@@ -471,7 +471,16 @@ p.nav-item-header {
   padding: 50px;
 }
 
+<<<<<<< HEAD
 .footer-topics a:hover{
+=======
+.footer-topics a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-topics a:hover {
+>>>>>>> 688d2a4fc92790e8263d259e7debc5be7936bfad
   text-decoration: underline;
 }
 
