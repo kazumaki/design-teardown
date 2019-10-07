@@ -103,6 +103,16 @@ p.nav-item-header {
   justify-content: space-around;
 }
 
+.main-articles-left footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-articles footer a {
+  text-decoration: none;
+  color: black;
+}
+
 .photo-box {
   background: #eee;
   width: 80px;
@@ -133,6 +143,14 @@ p.nav-item-header {
   color: white;
 }
 
+.main-articles-left a:hover {
+  cursor: pointer;
+}
+
+.main-articles a:hover {
+  cursor: pointer;
+}
+
 .teaser-author {
   align-self: center;
   cursor: pointer;
@@ -143,6 +161,11 @@ p.nav-item-header {
   color: white;
   font-weight: 700;
   font-size: 1.25rem;
+}
+
+.author a {
+  text-decoration: none;
+  color: black;
 }
 
 .lastest-posts {
@@ -258,6 +281,11 @@ p.nav-item-header {
   align-self: center;
 }
 
+.coming-up-next a {
+  text-decoration: none;
+  color: black;
+}
+
 .marcos {
   display: block;
   height: 350px;
@@ -267,6 +295,11 @@ p.nav-item-header {
 
 .marcos p {
   margin-left: 55px;
+}
+
+.marcos p a {
+  text-decoration: none;
+  color: black;
 }
 
 .person-img {
@@ -310,6 +343,11 @@ p.nav-item-header {
   justify-self: center;
 }
 
+.community2 footer a {
+  text-decoration: none;
+  color: black;
+}
+
 .highlights .photo-box {
   background: #eee;
   width: 80px;
@@ -323,6 +361,11 @@ p.nav-item-header {
   display: flex;
   height: 350px;
   background: #B8B8B8;
+}
+
+.smashing-book a{
+  text-decoration: none;
+  color: black;
 }
 
 .book-article {
@@ -402,7 +445,7 @@ p.nav-item-header {
 .load-more a {
   text-decoration: none;
   color: black;
-  border-bottom: solid 5px #979797; 
+  border-bottom: solid 5px #979797;
 }
 
 .main-footer {
@@ -413,8 +456,22 @@ p.nav-item-header {
   padding: 50px;
 }
 
+.footer-topics a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-topics a:hover{
+  text-decoration: underline;
+}
+
 .main-footer p {
   margin: 0;
+}
+
+.main-footer p a {
+  text-decoration: none;
+  color: black;
 }
 
 .topics-list {
@@ -439,4 +496,13 @@ p.nav-item-header {
 .footer-link-list li {
   padding: 5px;
   margin-right: 25px;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
 }
