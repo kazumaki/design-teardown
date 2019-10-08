@@ -88,7 +88,6 @@ p.nav-item-header {
   height: 140px;
   margin-top: 50px;
   margin-bottom: 0;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
   line-height: 1.5em;
   text-align: center;
   white-space: pre-line;
